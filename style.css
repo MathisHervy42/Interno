@@ -1,0 +1,57 @@
+/*--Import--*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*--Reset--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--Flex--*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.between{
+    justify-content: space-between;
+}
+.around{
+    justify-content: space-around;
+}
+.align-center{
+    align-items: center;
+}
+.container{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.gap8{
+    gap:8px;
+}
+.gap16{
+    gap:8px;
+}
+/*--Image--*/
+.image{
+    background-image: url(Canapé\ Interno.jpg);
+}
+
+/*--Typographie--*/
+.text-black{
+    text-color: black;
+}
+.text-white{
+    text-white: white;
+}
+.bold{
+    font-style: bold;
+}
+
+/*--Liens--*/
+.inline-block{
+    display:inline-block;
+}
