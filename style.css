@@ -27,10 +27,32 @@
 .aligncenter{
     align-items: center;
 }
+.alignleft{
+    align-items: left;
+}
+.alignright{
+    align-items: right;
+}
+.justifycenter{
+    justify-content: center;
+}
+.justifyleft{
+    justify-content: left;
+}
+.justifyright{
+    justify-content:right;
+}
+
 .container{
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
+}
+.margintop{
+    margin-top: auto;
+}
+.marginbottom{
+    margin-bottom: auto;
 }
 .gap8{
     gap:8px;
@@ -56,18 +78,30 @@
 .height90{
     height: 90vh;
 }
+.W20{
+    width:20%;
+}
 .W30{
     width:30%;
+}
+.W40{
+    width:40%;
+}
+.W50{
+    width:50%;
 }
 /*--Image--*/
 .Canap{
     background-image: url(Asset/canape.jpg);
     background-size: cover;
     width: 100%;
-   
 }
 .radius8{
     border-radius: 8px;
+}
+.imagesize{
+    width: 264px;
+    height: 272px;
 }
 /*--Typographie--*/
 .text-black{
@@ -84,6 +118,9 @@
 }
 .textsize{
     font-size: 85px;
+}
+.textcenter{
+    text-align: center;
 }
 .DM Serif Display{
     font-family:'DM Serif Display';
